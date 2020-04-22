@@ -15,4 +15,4 @@ I needed a way to generate huge amount of PNGs from the same Sketch template. Ma
 
 ## Good to know
 - You can specify the template in the command. Eg `node index.js white` and `node index.js blue`
-- You can create your own Sketch templates. Just make sure there's a folder called `main-text` with text inside of it.
+- You can create your own Sketch templates. Just make sure there's a layer group called `main-text` with text inside of it.
