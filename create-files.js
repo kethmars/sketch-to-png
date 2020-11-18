@@ -9,6 +9,8 @@ const TEXT_LAYER_NAME = 'main-text';
 const FOLDER = 'png';
 
 async function generateImageWithText(template, text, index) {
+  console.log('Starting generation');
+  
   const filename = slugify(text).replace(`'`, '-', text);
   const sketchFile = await ns.read(`${process.cwd()}/${template}`);
 
